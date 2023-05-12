@@ -2,6 +2,21 @@
 A simple and useful library to make image zoom in-out and drag.
 Happy Coding !:computer:
 
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.Vikas94891:PhotoZoomDrag-library:Tag'
+	}
+
+
 https://github.com/Vikas94891/PhotoZoomDrag-library/assets/133336042/bb45648d-1064-413e-bd5c-bd4a6adbae4f
 ![ezgif-4-fb49bdd2a6](https://github.com/Vikas94891/PhotoZoomDrag-library/assets/133336042/da20b765-852e-4090-83e6-392205c3f22c)
 ![1683884394993](https://github.com/Vikas94891/PhotoZoomDrag-library/assets/133336042/448784da-70e6-4207-8312-d05d4142be26)

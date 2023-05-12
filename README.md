@@ -4,6 +4,7 @@
 
 A simple and useful library to make image zoom in-out and drag.
 Happy Coding !:computer:
+
 Follow simple steps to use
 
 Step 1. Add it in your root build.gradle at the end of repositories:
@@ -20,6 +21,14 @@ Step 2. Add the dependency
 	        implementation 'com.github.Vikas94891:PhotoZoomDrag-library:Tag'
 	}
 
+step 3. Add view in your xml file
+
+ <com.app.vikasphotozoomdrag.VikasPhotoZoom
+        android:id="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/saria"/>
 
 https://github.com/Vikas94891/PhotoZoomDrag-library/assets/133336042/bb45648d-1064-413e-bd5c-bd4a6adbae4f
 ![ezgif-4-fb49bdd2a6](https://github.com/Vikas94891/PhotoZoomDrag-library/assets/133336042/da20b765-852e-4090-83e6-392205c3f22c)

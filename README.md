@@ -1,8 +1,9 @@
 # PhotoZoomDrag-library
 A simple and useful library to make image zoom in-out and drag.
 Happy Coding !:computer:
+Follow simple steps to use
 
-Add it in your root build.gradle at the end of repositories:
+Step 1. Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
